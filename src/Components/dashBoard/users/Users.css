@@ -1,0 +1,89 @@
+.Users__home{
+    margin-top: 40px;
+    font-family: Lemon milk bold;
+    font-size: 90px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../../assets/Background_itBaum.jpg');
+}
+.YesDataUser{
+    margin: auto;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 80%;
+    font-family: Lemon milk bold;
+    border-bottom: 2px solid cyan;
+    border-left: 2px solid cyan;
+    border-top: 2px solid cyan;
+    border-right: 2px solid cyan;
+    height: 38px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+}
+.tab__user{
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    font-weight: 700;
+    color:#1e88e0 ;
+    border-top: 2px solid #3388FF;
+    border-left: 2px solid #3388FF;
+    border-right: 2px solid #3388FF;
+    border-bottom: 1px solid #3388FF;
+}
+
+.tab__user::-webkit-scrollbar {
+    display: none;
+}
+.Header__user{
+    margin: auto;
+    font-size: 27px;
+    font-weight: 700;
+    color:blue ;
+    border-top: 3px solid #3388FF;
+    border-left: 3px solid #3388FF;
+    border-right: 3px solid #3388FF;
+    border-bottom: 1px solid #3388FF;  
+    width: 80%;
+    padding: 8px;
+}
+.item__user{  
+    flex-basis: 330%;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.ctn__user{
+    height: 400px ;
+      overflow: auto;
+      margin: auto !important;
+    }
+    
+    .ctn__user::-webkit-scrollbar {
+        display: none;
+    }
+    .YesDatauser{
+        margin: auto !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-family: Lemon milk bold;
+        border-bottom: 1px solid #3388FF;
+        border-left: 1px solid #3388FF;
+        border-top: 1px solid #3388FF;
+        border-right: 1px solid #3388FF;
+        height: 38px;
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+      }
+      .YesDatauser:hover{
+        background-color:#fff168 ;
+        cursor: pointer;
+    }

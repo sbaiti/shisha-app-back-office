@@ -1,0 +1,47 @@
+.stempelkarte__home{
+    margin-top: 10px;
+    text-align: left !important;
+    font-family: Lemon milk bold;
+}
+
+.home__stempelKorte{
+    display: flex;
+}
+.label{
+    width: 50%;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Lemon milk bold;
+}
+.form-groupp{
+    margin-top: 0px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #1e88e5;
+    margin: 2% 20%;
+    padding: 0.5%;
+    align-items: center;
+}
+
+.text__area{
+    width: 90% !important;
+    margin-left: 20px;
+}
+.msg{
+    margin-top: 30px;
+    font-family: Lemon milk bold;
+}
+.msg1{
+    text-align: left !important;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Lemon milk bold;
+}
+.button__password{
+    margin-top: 7px;
+}

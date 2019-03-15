@@ -1,0 +1,59 @@
+.Users__config__home{
+    margin: auto;
+    text-align: left !important;
+    font-family: Lemon milk bold;
+    width: 50%;
+    height: auto;
+    border: 4px solid #3388FF;
+    padding: 4px;
+}
+
+.label__form__user{
+    font-size: 20px;
+    font-weight: 550;   
+    font-family: Lemon milk bold;
+    margin-left: 50px;
+}
+
+.button__admin__user{
+    margin: auto !important;
+    text-align: center !important;
+    margin-top: 5px !important;
+}
+
+.flex__users{
+    display: flex;
+    flex-direction: row;  
+}
+
+.home__addUser{
+    font-family: Lemon milk bold;
+    text-align: left !important;
+    }
+    .form__users__add{
+        display:flex;
+        margin-top: -5px !important;
+        align-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        border: 4px solid #3388FF;
+        margin: auto;
+        width: 35%;
+        padding: 1%;
+    }  
+    .new__user{
+        height: 90%;
+        margin: auto;
+        align-items: center !important;
+    }
+
+    .users__screen{
+        display: flex;
+        flex-direction:row;
+    }
+    .user__in__res{
+        text-align: center;
+        flex-basis: 35%;
+        margin-top:10% ; 
+    }
+    

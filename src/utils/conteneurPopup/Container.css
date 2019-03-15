@@ -1,0 +1,157 @@
+.Popup__container{
+    margin: auto;
+    text-align: left !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    -moz-transform: translateX(-50%) translateY(-50%) !important;
+    -webkit-transform: translateX(-50%) translateY(-50%) !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+}
+.input-group{
+    width: auto !important;
+    align-items: center ;
+    margin: auto;
+}
+.button__popup{
+    margin-top: 20px;
+}
+.form{
+    margin-top:2% !important;
+    width: 70%;
+    margin: auto;
+}
+.button__popup{
+    margin-top: 0.5%;
+}
+.form-group{
+    border: 1px solid rgb(255, 244, 244);
+    width: 505px !important;
+    margin: auto !important;
+}
+.form-control{
+    width: 400px !important;
+}
+.flex__input__date{
+    width : 505px !important;
+    margin: auto !important;
+    margin-top: 5px !important;
+}
+.img__added{
+    align-self: auto;
+    height: 120px;
+    width: 120px;
+}
+.Container__Tischreserviernng{
+    width: 80% !important;
+    font-size: 20px;
+    font-weight: 700;   
+    font-family: Lemon milk bold;
+    text-align : left !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    -moz-transform: translateX(-50%) translateY(-50%) !important;
+    -webkit-transform: translateX(-50%) translateY(-50%) !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+}
+.Container__Tischreserviernng__selected{
+    width: 80% !important;
+    font-size: 20px;
+    font-weight: 700;   
+    font-family: Lemon milk bold;
+    text-align : left !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    -moz-transform: translateX(-50%) translateY(-50%) !important;
+    -webkit-transform: translateX(-50%) translateY(-50%) !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+}
+.Container__Tischreserviernng__edit{
+    margin: 3% 30%;
+    font-size: 20px;
+    font-weight: 700;   
+    font-family: Lemon milk bold;
+}
+.button__delete{
+    color: red !important;
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 150px !important;
+    font-family: Lemon milk bold;
+}
+.form__del{
+    display: flex;
+     margin-top: 20px ;
+}
+.img__uploaded{
+    margin-top: 20px;
+}
+.button__delete__all{
+    margin-top: 15px;
+}
+.button__edit{
+    margin-top: 20px;
+}
+.Container__DeleteEvent{
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    -moz-transform: translateX(-50%) translateY(-50%) !important;
+    -webkit-transform: translateX(-50%) translateY(-50%) !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+}
+.formm__reservation{
+    border: 5px solid rgb(0, 183, 255);
+    background-color: #007bff;
+    width: 100% !important;
+}
+
+.flex__reservation{
+    display: flex;
+    flex-direction: column;
+    margin-top: -8px;
+}
+.detail__res{
+    padding: 6%;
+    color: white;
+}
+.label__form__res{
+    text-decoration: underline;
+}
+.button__submit{
+    margin: auto;
+}
+.btn__sub{
+    margin-top: 5px;
+}
+.input__tab{
+    width: 200px !important;
+}
+.label__form__text{
+    font-size: 15px !important;
+    font-family: Lemon milk bold;
+}
+.label__form__text__selected{
+    font-size: 20px !important;
+    font-family: Lemon milk bold;
+}
+.btn__delete__restau{
+    margin: auto ;
+    text-align: center !important;
+    margin-top: 20px !important;
+}
+.Container__Img__selected{
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    -moz-transform: translateX(-50%) translateY(-50%) !important;
+    -webkit-transform: translateX(-50%) translateY(-50%) !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+}
+.btn__del{
+    margin-top: 5px;
+}

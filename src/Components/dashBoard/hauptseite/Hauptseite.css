@@ -1,0 +1,146 @@
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-family: Lemon milk bold;
+    height: calc(100vh/2 - 48px)  !important;
+  }
+  .row {
+    display: table;
+    clear: both;
+    height: calc(100vh/2 - 48px)  !important;
+    width: 101.5%;
+    font-family: Lemon milk bold;
+
+  }
+  .loading{
+    margin: auto;
+    margin-top:15% !important; 
+  }
+
+  .yes__data{
+    height: 83%;
+    width:50%;
+    margin: auto ;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+}
+.reservation{
+    width:60%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.reservation__tisch{
+    width:90%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.user{
+    width:80%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.YesDataResrvation{
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: Lemon milk bold;
+    border-bottom: 1px solid #3388FF;
+    border-left: 1px solid #3388FF;
+    border-top: 1px solid #3388FF;
+    border-right: 1px solid #3388FF;
+    height: 38px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .item__res{  
+    flex-basis: 60%;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.item__user__home{
+  flex-basis: 100%;
+}
+  .item__res__btn{  
+    flex-basis: 60%;
+    font-size: 8px;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.YesDataResrvation:hover{
+    background-color:#fff168;
+    cursor: pointer;
+}
+.ctn__res{
+  height: 220px ;
+    overflow: auto;
+}
+
+.ctn__res::-webkit-scrollbar {
+    display: none;
+  }
+
+.YesDataResrvation__tab{
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    font-weight: 700;
+    color:#1e88e0 ;
+    border-top: 2px solid #3388FF;
+    border-left: 2px solid #3388FF;
+    border-right: 2px solid #3388FF;
+    border-bottom: 1px solid #3388FF;
+
+}
+.arrow__upp {
+  margin: 1px 0 0 10px;
+  width: 0px;
+  height: 0px;
+  margin-left: 95px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid #ff9f00;
+}
+
+.date__filter__wrapperr {
+  position: absolute;
+  z-index: 1;
+}
+.calendar {
+  display: block;
+  background:white;
+  width: 250px;
+  border: solid 1px ;
+  margin: 10px auto;
+  box-shadow: 0 0 15px 0 ;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 900 !important;
+  height: 180px;
+}
+.react-calendar__navigation{
+  height: 13px !important;
+}
+.btn-sm{
+height: 30px;
+margin-bottom: 2px;
+margin-top: 2px;
+width: 80px;
+}
+.fussball__noData{
+  font-size: 25px;
+  font-weight: 500;
+}
+.fa-spinner{
+  font-size: 25px;
+}

@@ -1,0 +1,55 @@
+
+.login__page{
+  background: url("./assets/Background_itBaum.jpg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 10px;
+  overflow: hidden;
+}
+
+
+
+.container__page{
+  display: flex;
+  height: calc(100vh - 73px);
+  font-family: Lemon milk bold;
+}
+
+.active__component{
+  width: 94%;
+  margin: 0px 0px 0px 15.5px;
+  text-align: center;
+  font-family: Lemon milk bold;
+}
+
+.side__bar{
+  z-index: 1000;
+  background:#3388FF ;
+  height: 100%;
+  font-family: Lemon milk bold;
+}
+
+.loading__app{
+    text-align: center !important;
+    margin-top: 17%;
+}
+
+.react-confirm-alert-body {
+  font-family: Lemon milk bold;
+  width: 400px;
+  padding: 30px;
+  align-items: center !important;
+  align-content: center !important;
+  text-align: center !important;
+  background: #1e88e5 !important;
+  border-radius: 10px;
+  box-shadow: 0 20px 75px rgba(0, 0, 0, 0.13);
+  color: white !important;
+}
+.react-confirm-alert-button-group{
+  margin-top: 20px !important;
+  display: flex;
+  justify-content: center;
+}

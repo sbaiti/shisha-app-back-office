@@ -1,0 +1,50 @@
+.restaurant__home{
+    margin: auto;
+    font-family: Lemon milk bold;
+    width: 100%;
+    height: auto;
+    padding: 20px; 
+    text-align: center !important;
+}
+.Header__resto{
+    margin: auto;
+    font-size: 27px;
+    font-weight: 700;
+    color:blue ;
+    border-top: 3px solid cyan;
+    border-left: 3px solid cyan;
+    border-right: 3px solid cyan;
+    border-bottom: 1px solid cyan;  
+    width: 50%;
+    padding: 8px;
+}
+.YesDataRestau{
+    margin: auto;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 50%;
+    font-family: Lemon milk bold;
+    border-bottom: 2px solid cyan;
+    border-left: 2px solid cyan;
+    border-top: 2px solid cyan;
+    border-right: 2px solid cyan;
+    height: 38px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+}
+
+.YesDataRestau:hover{
+    background-color:#fff168 ;
+    cursor: pointer;
+}
+
+.tab__resto{
+    height: 420px ;
+      overflow: auto;
+}
+
+.tab__resto::-webkit-scrollbar {
+      display: none;
+}

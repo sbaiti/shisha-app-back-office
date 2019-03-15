@@ -1,0 +1,14 @@
+.no__data{
+    margin: auto;
+    margin-top: 17% !important;
+}
+.img__size{
+    margin-top: 20px;
+}
+.clock {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: 700;
+    margin-right: -40px;
+    font-size: 15px;
+}

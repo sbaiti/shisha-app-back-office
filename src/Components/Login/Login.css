@@ -1,0 +1,26 @@
+.sectionLogin{
+width:40%;
+height: 40%;
+border-radius: 10px;
+margin:auto !important;
+text-align: center;
+}
+
+.imgLogo{
+    width:400px;
+    height: 500px;
+    margin:auto auto !important;
+    padding: 30px
+}
+.button__login{
+    margin-top: 15px !important;
+    margin: auto;
+}
+.login__button{
+    margin-top: 15px !important;  
+}
+.auto__connect{
+    font-family: Lemon milk bold;
+    font-size: 20px !important;
+    margin-top: 10px !important;  
+}

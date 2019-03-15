@@ -1,0 +1,50 @@
+
+.popup {
+    position: fixed;
+    width: 80%;
+    height: 85%;
+    margin-left: 7%;
+    margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    border : 3px solid silver;
+    border-radius: 18px;
+  }
+  .popup_inner {
+    height: 90%;
+    border-radius: 18px;
+    position: absolute;
+    width: 60%;
+    left: 10%;
+    right: 10%;
+    top: 40px;
+    bottom: 40px;
+    margin: auto;
+    background: white;
+    /* border : 5px solid #3388FF; */
+  }
+  
+  .popup_inner::after {
+    content: '';
+    clear: right;
+    display: table;
+  }
+  
+  .close-popup {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 8px 10px;
+    line-height: 20px;
+    right: -18px;
+    top: -18px;
+    font-size: 24px;
+    font-weight: 700;
+    background: #fff;
+    border-radius: 18px;
+    z-index: 0;
+  }
+  .close-popup:hover {
+    color: red;
+  }
+  

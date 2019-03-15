@@ -1,0 +1,98 @@
+.navItem {
+    font-size: 100%;
+    font-family: Lemon milk bold;
+  }
+  .navbar {
+    padding: 0.1rem 1rem !important;
+    position: relative !important;
+    z-index: 1000;
+    min-width: 100% !important;
+    box-shadow: 0px 0px 5px grey;
+  }
+  .navItem:hover {
+    color: yellow !important;
+  }
+  .site-logo {
+    color: #222222;
+    display: table;
+    text-align: left;
+    margin-left: 5px;
+    height: 70px;
+    position: relative;
+  }
+  .site-logo img {
+    height: 60px;
+    width: 110px;
+  }
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5)!important;
+    border-color: rgba(206, 199, 0, 0.1)!important;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='#ffd11a' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>")!important;
+  }
+  nav.bg-light {
+    background-color: #f8f8f8 !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar-toggler {
+      margin-bottom: 0.7rem;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .site-logo img {
+      margin-top: 0.7em;
+      max-height: 40px;
+    }
+    .navbar-toggler {
+      font-size: 1rem !important;
+      padding: 0.25rem 0.5rem !important;
+    }
+  }
+  .Welcome{
+    font-size: 20px !important;
+    margin-right: 20px;
+    margin-top: 7px;
+    font-family: Lemon milk bold;
+    font-weight: 1000;
+    color:deepskyblue !important;
+  }
+    .fullscreen-button,
+    .overlay-button{
+      z-index: 1000;
+        width: 60px;
+        height: 40px;
+        margin: auto;
+        float: right;
+        margin-top: 1px;
+        background-color: none !important; 
+    }
+    .arrow__uppp{
+      margin: 1px 0 0 10px;
+      width: 0px;
+      height: 0px;
+      margin-left: 15px;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 10px solid #3388FF;
+    }
+    .info__user{
+      height: 260px;
+      width: 200px;
+      border: 3px solid #3388FF;
+      margin-left: -60px;
+    }
+    .info__user__cadr{
+      border: 3px solid #3388FF;
+      height: 245px;
+      width: 185px;
+      margin: 5px 5px 5px 5px;
+      padding: 10px;
+      background: #3388FF ;
+      color: white;
+    }
+    .btn__log__out{
+      margin-top: 10px;
+      margin-left: 25px;
+    }
